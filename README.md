@@ -5,7 +5,7 @@ Web test automation example project using IntelliJ IDEA Community, Java, Maven, 
 bbc.co.uk
 
 ## Tools
-IntelliJ IDEA Community version.
+IntelliJ IDEA Community version
 
 ## Programming Language
 Java
