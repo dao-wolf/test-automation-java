@@ -2,7 +2,8 @@
 Web test automation example project using IntelliJ IDEA Community, Java, Maven, TestNG, Selenium 3, Appium and Page Object Model (POM)
 
 ## Test Subject
-bbc.co.uk
+I've picked [www.bbc.co.uk](www.bbc.co.uk) as a test subject for no particular reason.
+It's is a large site and does have variety of features that we can play around with.
 
 ## Libraries and Frameworks
 Version for some of these can be found in the [POM](https://github.com/opantsjoha/test-automation-java/blob/master/pom.xml) file.
