@@ -5,9 +5,10 @@ Web test automation example project using IntelliJ IDEA Community, Java, Maven, 
 bbc.co.uk
 
 ## Libraries and Frameworks
-* Selenium 3 - web automation
-* Appium - mobile automation
-* Maven - build and package management
+Version for some of these can be found in the [POM](https://github.com/opantsjoha/test-automation-java/blob/master/pom.xml) file.
+* Selenium - Web automation
+* Appium - Mobile automation
+* Maven - Build and package management
 * TestNG - Test execution and Reporting
 
 ## Tools
