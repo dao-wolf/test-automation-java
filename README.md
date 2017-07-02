@@ -4,6 +4,12 @@ Web test automation example project using IntelliJ IDEA Community, Java, Maven, 
 ## Test Subject
 bbc.co.uk
 
+## Libraries and Frameworks
+* Selenium 3 - web automation
+* Appium - mobile automation
+* Maven - build and package management
+* TestNG - Test execution and Reporting
+
 ## Tools
 Using [IntelliJ IDEA Community](https://www.jetbrains.com/idea/) version.
 I've previously used Eclipse and found it to be a little bit slower and not as intuitive.
