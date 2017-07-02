@@ -22,6 +22,7 @@ public class HomePageTests extends TestHelper {
     public void searchTest() throws InterruptedException {
         browser.HomePage().HeaderSection().setSearchField("Cooking");
         browser.HomePage().HeaderSection().clickOnSearchButton();
+        // todo: add assert
     }
 
     @AfterClass(groups = {"web"})
