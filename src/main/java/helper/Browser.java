@@ -109,8 +109,6 @@ public class Browser {
         return this.baseUrl;
     }
 
-
-    // All Page Objects are created here...
     public HomePage HomePage() {
         if (homePage == null) {
             homePage = new HomePage(this);
