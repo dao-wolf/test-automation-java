@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+
+    <parameter name="baseUrl" value="http://www.bbc.co.uk/"/>
+
+    <test name="Chrome Tests">
+        <parameter name="browserName" value="Chrome"/>
+        <groups>
+            <run>
+                <include name="web"/>
+            </run>
+        </groups>
+
+        <classes>
+            <!--<class name="tests.BookingFlowTests"/>-->
+        </classes>
+    </test>
+
+    <test name="Safari Tests">
+        <parameter name="browserName" value="Safari"/>
+        <groups>
+            <run>
+                <include name="web"/>
+            </run>
+        </groups>
+
+        <classes>
+            <!-- <class name="tests.BookingFlowTests" /> -->
+        </classes>
+    </test>
+
+    <test name="Firefox Tests">
+        <parameter name="browserName" value="Firefox"/>
+        <groups>
+            <run>
+                <include name="web"/>
+            </run>
+        </groups>
+
+        <classes>
+            <!-- <class name="tests.BookingFlowTests" /> -->
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="IE Tests">
+        <parameter name="browserName" value="InternetExplorer"/>
+        <groups>
+            <run>
+                <include name="web"/>
+            </run>
+        </groups>
+
+        <classes>
+        </classes>
+    </test>
+
+    <test name="Edge Tests">
+        <parameter name="browserName" value="Edge"/>
+        <groups>
+            <run>
+                <include name="web"/>
+            </run>
+        </groups>
+
+        <classes>
+        </classes>
+    </test>
+
+
+</suite> <!-- Suite -->
