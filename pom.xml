@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>qa.example.java</groupId>
-    <artifactId>bbc-tests</artifactId>
+    <artifactId>test-automation-java</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -20,7 +20,7 @@
     </build>
     <packaging>jar</packaging>
 
-    <name>bbc-tests</name>
+    <name>test-automation-tests</name>
     <url>http://maven.apache.org</url>
 
     <properties>

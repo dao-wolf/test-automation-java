@@ -11,4 +11,5 @@ public class HomePage extends Page {
     public HomePage(Browser browser) {
         super(browser);
     }
+
 }

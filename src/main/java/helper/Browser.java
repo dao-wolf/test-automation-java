@@ -7,7 +7,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.Reporter;
 import pages.HomePage;
 
 import java.net.MalformedURLException;
@@ -20,8 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class Browser {
 
 
-    public Browser(String browserName, String port, String baseUrl) {
-        Reporter.log("Create new instance of the browser", true);
+    public Browser(String browserName, String baseUrl) {
         setBrowser(browserName);
         setBaseUrl(baseUrl);
         Initialise(getBrowser());
@@ -29,7 +27,7 @@ public class Browser {
 
     private void Initialise(String browser) {
         capabilities = new DesiredCapabilities();
-        seleniumFolderPath = System.getProperty("user.home") + "/Documents/services/selenium3/";
+        seleniumFolderPath = System.getProperty("user.home") + "/Documents/umservices/selenium3/";
 
         switch (browser) {
             case "Chrome":
@@ -77,7 +75,6 @@ public class Browser {
         }
 
         try {
-            Reporter.log("Create new instance of remote web driver", true);
             _driver = new RemoteWebDriver(new URL("http://0.0.0.0:4444/wd/hub"), capabilities);
         } catch (MalformedURLException e) {
             e.printStackTrace();
