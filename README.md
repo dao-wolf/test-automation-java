@@ -14,8 +14,7 @@ Version for some of these can be found in the [POM](https://github.com/opantsjoh
 
 ## Tools
 Using [IntelliJ IDEA Community](https://www.jetbrains.com/idea/) version.
-I've previously used Eclipse and found it to be a little bit slower and not as intuitive.
-You're free to try both and decide for yourself. Also there are a lot of comparison articles out there already. 
+I've previously used Eclipse and found it to be a little bit slower and not as intuitive, you're free to try both and decide for yourself. Also there are a lot of comparison articles out there already. 
 
 ## Programming Language
 I'm using [Java SE](http://www.oracle.com/technetwork/java/javase/downloads/index.html) version jdk1.8.0_111 and it works very well.
