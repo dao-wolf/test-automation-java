@@ -85,6 +85,9 @@ public class Browser {
     public void navigateTo(String url) {
         _driver.get(url);
     }
+    public void test(){
+        
+    }
 
     public void navigateToBaseUrl() {
         _driver.get(getBaseUrl());
